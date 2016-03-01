@@ -50,10 +50,8 @@ int main() {
     MidOrder(pRoot);
     printf("\n");
 
-    pRoot = DeleteNode(pRoot, 2);
-    printf("Root: %d\n", pRoot->iKey);
-    printf("middle order: ");
-    MidOrder(pRoot);
-    printf("\n");
+    TreeNode* pNode = FindNode(pRoot, 20);
+    printf("Node: %d\n", NULL == pNode ? 0 : pNode->iKey);
+
     return 0;
 }

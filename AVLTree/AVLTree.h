@@ -11,6 +11,6 @@ typedef struct AVLTreeNode
 } TreeNode;
 
 TreeNode* InsertNode(TreeNode* pNode, int iVal);
-TreeNode* DeleteNode(TreeNode* pNode, int iVal);
+TreeNode* FindNode(TreeNode* pNode, int iVal);
 
 #endif
